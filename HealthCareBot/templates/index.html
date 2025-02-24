@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare ChatBot</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+    <h1>HealthCare ChatBot</h1>
+    <form action="/predict" method="post">
+        <input type="text" name="symptoms" placeholder="Enter symptoms (e.g., fever, cold)" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+
+</body>
+</html>
